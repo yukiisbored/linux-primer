@@ -1,0 +1,24 @@
+== Pedoman Kontributor
+
+Demi menjaga kualitas dan konsisten, kita mempunyai beberapa gaya penulisan dan "peraturan", yaitu:
+
+. Mohon simpan file dalam format UNIX (yaitu mengunakan tanda garis baru `LF`/`\n`).
+. Mohon untuk tidak mengunakan Tab (`\t`) tetapi mengunakan 4 spasi.
+. Jika menambahkan link, mohon pakai `https://` jika ada.
+. Jika menambahkan foto, mohon pastikan foto tersebut mengunakan lisensi yang memperbolehkan pemakaian seperti +
+  Creative Commons dan tambahkan foto tersebut dalam sumber foto dalam urutan pemunculan.
+. Mohon memakai _heading_ dengan tanda sama-dengan (`=`) disebelah tulisan bukan yang dibawahnya.
+. Mohon tidak mengunakan format Markdown/HTML. LaTeX diperbolehkan hanya dan hanya jika diperlukan.
+. Mohon untuk tidak memasukan konten berhak-cipta. Pastikan konten tersebut berlisensi yang memperbolehkan +
+  pemakaian seperti Creative Commons.
+. Pastikan setiap barisan mempunyai kurang dari 80 karakter. Demi pembacaan secara langsung.
+. Pastikan ada karakter tanda garis baru di akhir file teks.
+. Mohon memakai bahasa Inggris dalam pesan _commit_.
+. Mohon mengikuti gaya _commit_-nya https://coala.io[coala]. Panduannya bisa dibaca di https://coala.io/commit.
+
+Jika kamu ingin mempelajari format/syntax yang dipakai dalam penulisan buku ini, AsciiDoc, silahkan baca sumber
+berikut:
+
+* http://asciidoctor.org/docs/asciidoc-writers-guide[AsciiDoc Writer\'s Guide]
+* http://asciidoctor.org/docs/asciidoc-syntax-quick-reference[AsciiDoc Syntax Reference]
+* http://asciidoctor.org/docs/user-manual[AsciiDoc User Manual]
