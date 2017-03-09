@@ -1,0 +1,135 @@
+== Memulai Perjalanan
+
+=== Mengapa Linux?
+
+Mengapa sih perlu banget belajar Linux, emang pentingnya Linux dalam dunia kita itu apa dan apa yang membuat Linux
+itu sendiri sebuah sistem yang sangat populer dan sangat diinginkan di dunia komputer. Linux itu sendiri dari
+penglihatan orang awam seperti sesuatu yang "susah" dan "abstrak" (padahal dia sendiri belum memakainya).
+
+Sebenarnya Linux itu sendiri sama seperti operasi sistem lainnya seperti Windows, macOS, dkk. Bahkan saya bisa
+menjamin kamu pasti mempunyai sistem Linux tetapi kamu aja belum sadar. Coba cek aja, pasti diantara Smartphone,
+TV, Mobil, Kulkas, Pemanggang roti, dan lain lain ada yang jalan Linux. Mengapa? karena Linux itu Bebas dan Terbuka.
+Mungkin kamu pernah mengdengarkan sesuatu yang bernama "Open Source", "Free Software", atau gabungan dari kedua
+tersebut yaitu "Free and Open Source Software". "Free" disini bukan berarti tidak mempunyai harga tetapi kebebasan.
+Perangkat lunak yang terbuka dan bebas pasti mempunyai kebebasan pokok yaitu kebebasan untuk menjalakan, menyalin,
+mendistribusikan, mempelajari, mengubah, dan memperbagus perangkat lunak tersebut.
+
+Tidak seperti perangkat lunak yang berhak-milik (_proprietary_) dimana pemakainya tidak punya kebebasan seperti
+diatas. Mungkin kamu bisa bilang bahwa kamu bisa aja mengubah, tetapi apakah yang kamu lakukan halal?. Kamu bisa
+membuat duplikat dan kasih ke teman kamu, tetapi apakah yang kamu lakukan halal?. Walaupun kamu bisa tetapi bukan
+berarti itu adalah sesuatu yang benar.
+
+Dengan memakai perangkat lunak yang terbuka dan bebas, kamu diberi kebebasan. Ini juga berupa alasan dan daya tarik
+perusahaan dengan Linux. Linux adalah proyek perangkat lunak bebas yang sangat terbesar. Siapa yang bekerja?
+Perusahaan ternama seperti Intel, AMD, NVIDIA, bahkan Microsoft, dan berbagai macam perusahaan lainnya yang sangat
+membutuhkan juga bekerja dan membantu dalam pengembangan Linux. Bukan cuman perusahaan, orang seperti kamu juga
+bisa. Siapapun yang mempunyai skill untuk mengembangkan Linux bisa dan diperbolehkan untuk ikut mengembanginya atau
+mengubahnya.
+
+=== Oke, bagaimana saya bisa mulai dengan "Linux" ini?
+
+Linux itu sendiri hanya sebuah _kernel_ yaitu program yang menguruskan komunikasi dengan perangkat keras (seperti
+_Monitor_, _Speaker_, _Keyboard_, _Mouse_, dll) untuk menjalakan sebuah program/perangkat lunak. Kamu sendiri tidak
+memakai Linux secara langsung, yang kamu pakai adalah program-program seperti desktop, penjelajah web, klien surel,
+dll. Karena itu, Linux mempunyai sebuah paket siap dipakai yang sering disebut distribusi atau "Distro".
+
+Distro ini sendiri adalah sistem Linux yang siap dipakai dan hanya perlu di-_install_, seperti mie instan tinggal
+diseduh dan siap saji. Tetapi karena keunikannya Linux, kalian bisa mencobanya tanpa perlu di-_install_ fitur ini
+biasanya disebut "Live session".
+
+Buku ini akan fokus ke distro Linux Debian atau yang berbasis Debian. Debian adalah salah satu distro yang sangat
+populer karena merupakan salah satu distro pertama yang membawa fitur yang membuat Linux itu keren yaitu manajemen
+paket. Kita akan bahas manajemen paket nanti. Karena terbukanya Linux, distro seperti Debian juga sering
+diotak-utik. Salah satu distro berbasis Debian yang populer adalah Ubuntu.
+
+==== Rekomendasinya Chef
+
+Oke, berikut ini adalah distro yang berbasis Debian yang saya rekomendasi untuk pemula:
+
+. Linux Mint
++
+Linux Mint adalah distro yang berbasis Ubuntu. Saya rekomendasikan Linux Mint karena _desktop_ yang mirip Windows,
+jadi untuk yang sudah sering pakai Windows mungkin tidak terlalu keliru dengan _desktop_-nya. Linux Mint sendiri
+memang dibuat untuk pemula, tetapi jangan salah orang yang sudah mahir juga suka pakai Linux Mint.
++
+.Foto _Desktop_ Linux Mint
+image::https://upload.wikimedia.org/wikipedia/commons/d/d4/Linux_Min_14_(Nadia).png[pdfwidth=50%]
++
+Website: https://linuxmint.com
+. Ubuntu
++
+Mungkin kamu sering mendengarkan distro yang satu ini atau mungkin pernah membeli laptop yang sudah ter-_install_
+dengan dia tetapi kamu hapus dan _install_ Windows. Iya, Ubuntu memang distro yang sangat populer, mungkin kakek/
+nenek-mu pernah dengar namanya. Ubuntu ini saya rekomendasikan untuk pemula karena komunitasnya yang besar (Tenang,
+Mint tidak kalah ;)). Ubuntu ini juga pas bagi kamu yang sudah bosan dengan _desktop_-nya Windows atau mungkin sudah
+mual dengan _desktop_ barunya Windows.
++
+.Foto _Desktop_ Ubuntu
+image::https://upload.wikimedia.org/wikipedia/commons/9/94/Desktop_Ubuntu_13_10.png[pdfwidth=50%]
++
+Website: https://ubuntu.com
+. Debian
++
+Tentu saja saya rekomendasikan yang aslinya. Debian saya rekomendasikan karena Debian. Ya bukan itu juga, karena
+Debian itu sendiri memberi kebebasan pilihan untuk mulai dengan _desktop_ apa. Pilihannya (pada saat penulisan)
+adalah GNOME, KDE, XFCE, dan Cinnamon atau tanpa desktop (bagi kamu yang sudah siap banget dengan tantangan).
++
+.Foto _Desktop_ Debian dengan GNOME
+image::https://upload.wikimedia.org/wikipedia/commons/5/59/Debian_7.3_(wheezy)_amd64_with_GNOME_3.4.2.png[]
++
+Website: https://debian.org
+
+==== Siapkan
+
+Pada saat kamu sudah pilih distro apa yang kamu inginkan. _Download_ _ISO_-nya dari website yang telah dicantumkan.
+Pilihlah yang sesuai dengan komputer kamu, biasanya komputer kamu sudah bisa 64-bit/amd64/x86_64 kecuali jika
+komputer kamu sudah lama banget (mungkin sebelum tahun 2006 dimana processor 64-bit belum populer).
+
+Setelah kamu sudah selesai _download_ _ISO_-nya, kamu siapkan media instalasinya. Pilihannya adalah di antara
+_Flash disk_ atau _DVD_.
+
+===== Penyiapan Media DVD
+
+Jika kamu tidak punya _flash disk_ yang tidak penting, beli saja DVD kosong di tempat jual ATK (Alat tulis kantor)
+terdekat dan _Burn_ _ISO_-nya dengan alat _burning_ _ISO_ yang sudah tersedia di Windows 7+ (bagi pemakai Windows XP/
+Vista bisa cari di Internet untuk alat _burning_ yang sesuai).
+
+===== Penyiapan Media Flash Disk
+
+Jika kamu punya _flash disk_ yang tidak penting (tidak penting disini bermaksud pada isinya), kamu bisa memakai
+alat yang bernama "Rufus" yaitu perangkat lunak terbuka untuk menyiapkan media _ISO_ Linux/Windows ke _flash disk_.
+
+. _Download_ Rufus di https://rufus.akeo.ie/
+. Jalakan Rufus
+. Tekan tombol yang gambar CD (yang disebelah _drop-down_ yang bertulisan "ISO Image")
+. Pilih _ISO_ Linux yang sudah di-_download_
+. Pastikan _Device_ yang dipilih adalah _flash disk_ kamu
+. Jika Komputer kamu pakai UEFI, pilih "GPT Partition Scheme for UEFI". Biasanya tidak atau tidak dipakai.
+. Tekan "Start"
+
+==== Penyeduhan
+
+Buku ini tidak mengajarkan cara _install_ Linux (karena menurut saya, cara _install_ Linux sudah mudah dengan
+_installer_ yang sudah disediakan). Tetapi buku ini akan memberitahu beberapa hal dalam cara menjalankan media
+instalasi.
+
+Colokan/masukan media instalasi ke Komputer kamu dan coba _restart_. Jika Linux tidak jalan, berarti
+komputer kamu memprioritaskan _hard disk_ daripada media instalasi. Silahkan ke menu pemilihan _boot device_,
+biasanya pada saat boot ada tulisan seperti "Boot Interrupt", "Boot Media Select", "Boot Menu", dll dan sebuah
+tombol disebelahnya. Jika ada, _restart_ dan tekanlah tombol itu berkali-kali setelah Windows sudah keluar atau
+BIOS sudah muncul dan pilihlah media instalasi kamu.
+
+Jika tidak bisa _boot_ ke media instalasi, berarti komputer kamu memakai UEFI karena itu jika pakai metode Flash
+Disk silahkan lakukan lagi. Jika tidak ada tulisan, coba tekan kbd:[ESC] berkali-kali pada saat nyala, jika masih
+tidak bisa silahkan konsultasi ke Internet.
+
+Seperti yang saya bilang sebelumnya, buku ini tidak mengajarkan atau memberitahu cara _install_ Linux, silahkan
+coba sendiri. Saya yakin bahwa instalasi Linux itu semudah Windows, jika masih keliru silahkan buka Internet
+dan liat video tutorial atau _walkthrough_. Jika kamu mau melakukan _dual-boot_, saya rekomendasikan memakai Linux
+Mint atau Ubuntu karena ada fitur yang memudahkan dalam melakukan hal tersebut.
+
+==== Penyajian
+
+Jika kamu sudah sukses install Linux, selamat kamu telah melakukan satu hal yang temanmu mungkin belum pernah.
+Silahkan coba pakai Linux dan coba _install_ program-program yang dibutuhkan untuk bekerja, bermain, dan
+semacamnya.
