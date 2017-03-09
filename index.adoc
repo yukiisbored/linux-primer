@@ -1,0 +1,10 @@
+= Linux Primer: Belajar Linux Bagi Pemula
+Muhammad Kaisar Arkhan <ykno@protonmail.com>
+:experimental:
+:toc:
+
+include::bab-1-memulai-perjalanan.adoc[]
+
+<<<
+
+include::daftar-pustaka.adoc[]
