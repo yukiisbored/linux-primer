@@ -23,7 +23,7 @@ Dengan memakai perangkat lunak yang terbuka dan bebas, kamu diberi kebebasan. In
 perusahaan dengan Linux. Linux adalah proyek perangkat lunak bebas yang sangat terbesar. Siapa yang bekerja?
 Perusahaan ternama seperti Intel, AMD, NVIDIA, bahkan Microsoft, dan berbagai macam perusahaan lainnya yang sangat
 membutuhkan juga bekerja dan membantu dalam pengembangan Linux. Bukan cuman perusahaan, orang seperti kamu juga
-bisa. Siapapun yang mempunyai skill untuk mengembangkan Linux bisa dan diperbolehkan untuk ikut mengembanginya atau
+bisa. Siapapun yang mempunyai kemampuan untuk mengembangkan Linux bisa dan diperbolehkan untuk ikut mengembanginya atau
 mengubahnya.
 
 === Oke, bagaimana saya bisa mulai dengan "Linux" ini?

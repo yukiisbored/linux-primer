@@ -14,7 +14,7 @@ Jika kamu ingin membantu, silahkan membuat _Pull request_ di repositori GitHub i
 cara kontribusi.
 
 Saya sangat menghargai bagi kamu yang meluangkan waktunya dalam penulisan buku ini. Saya sendiri tidak mempunyai
-skill penulisan yang baik. Dengan bantuan dan pembelajaran dari kamu, saya berharap bisa meningkatkan skill penulis
+kemampuan penulisan yang baik. Dengan bantuan dan pembelajaran dari kamu, saya berharap bisa meningkatkan kemampuan penulis
 saya (Silahkan jadi "EYD-Nazi" di _Issue tracker_-nya ;))
 
 == Bagaimana cara membuat jadi format PDF/HTML?
