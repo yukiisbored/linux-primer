@@ -1,0 +1,48 @@
+= Linux Primer: Belajar Linux Bagi Pemula
+
+Linux Primer adalah buku pembelajaran Linux yang terbuka dan bebas. Buku ini bersifat gratis dan bebas, dalam kata
+lain diperbolehkan untuk dibaca, disalin, didistribusikan, dipelajari, diubah, dan diperbagus. Buku ini berlisensi
+dengan Lisensi MIT.
+
+Buku ini dengan sengaja ditulis dengan bahasa yang komunikatif, padangan pertama, dan langsung. Buku ini memakai
+gaya pembicaraan sehari-hari supaya mudah untuk mengkonsumsi ilmunya.
+
+Pada saat ini, buku ini masih belum lengkap dan masih dalam penulisan.
+
+== Saya ingin membantu!
+
+Jika kamu ingin membantu, silahkan membuat _Pull request_ di repositori GitHub ini! Jangan lupa untuk membaca tata
+cara kontribusi.
+
+Saya sangat menghargai bagi kamu yang meluangkan waktunya dalam penulisan buku ini. Saya sendiri tidak mempunyai
+skill penulisan yang baik. Dengan bantuan dan pembelajaran dari kamu, saya berharap bisa meningkatkan skill penulis
+saya (Silahkan jadi "EYD-Nazi" di _Issue tracker_-nya ;))
+
+== Bagaimana cara membuat jadi format PDF/HTML?
+
+Buku ini ditulis dalam format Asciidoc. Saya sendiri memakai alat https://asciidoctor.org[asciidoctor] untuk
+membuat format _PDF_/_HTML_-nya. Jadi, silahkan _install_ dulu alatnya di komputer kamu.
+
+Untuk membuat versi _HTML_-nya, silahkan jalankan perintah di bawah ini:
+
+      $ asciidoctor -a allow-uri-read index.adoc
+
+Untuk membuat versi _PDF_-nya, silahkan jalankan perintah di bawah ini:
+
+      $ asciidoctor -b pdf -a allow-uri-read index.adoc
+
+== Target
+
+- [x] Memulai Perjalanan
+- [ ] Masalah Umum
+- [ ] Terminal? Bagaimana cara ngomongnya? (Cara memakai Terminal dan perintah-perintah dasarnya)
+- [ ] Services? Unit? Daemon? Apaan tuh? (Cara mengunakan `systemctl` untuk memanajemen daemon/unit)
+- [ ] Cek dan ricek (Mengajarkan cara diagnosa dan memperbaiki)
+- [ ] Terjun lebih dalam lagi (Mengajarkan cara kerja sistem Linux dan hal lain yang perlu diketahui)
+- [ ] Menambahkan target
+
+=== Ide yang meungkin jadi Target
+
+- Membuat script dengan `bash` (Jadikan buku sendiri?)
+- Administrasi Server (Jadikan buku sendiri?)
+- Paranoia (Pengamanan Server) (Jadikan buku sendiri?)
