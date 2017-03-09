@@ -1,0 +1,10 @@
+== Daftar Pustaka
+
+* https://www.gnu.org/philosophy/free-sw.en.html
+
+<<<
+
+== Sumber Foto
+. https://upload.wikimedia.org/wikipedia/commons/d/d4/Linux_Min_14_(Nadia).png
+. https://upload.wikimedia.org/wikipedia/commons/9/94/Desktop_Ubuntu_13_10.png
+. https://upload.wikimedia.org/wikipedia/commons/5/59/Debian_7.3_(wheezy)_amd64_with_GNOME_3.4.2.png
