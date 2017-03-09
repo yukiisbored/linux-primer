@@ -1,8 +1,7 @@
 = Linux Primer: Belajar Linux Bagi Pemula
 
-Linux Primer adalah buku pembelajaran Linux yang terbuka dan bebas. Buku ini bersifat gratis dan bebas, dalam kata
-lain diperbolehkan untuk dibaca, disalin, didistribusikan, dipelajari, diubah, dan diperbagus. Buku ini berlisensi
-dengan Lisensi MIT.
+Linux Primer adalah buku pembelajaran Linux yang terbuka dan bebas, dalam kata lain diperbolehkan untuk dibaca,
+disalin, didistribusikan, dipelajari, diubah, dan diperbagus. Buku ini berlisensi dengan Lisensi MIT.
 
 Buku ini dengan sengaja ditulis dengan bahasa yang komunikatif, padangan pertama, dan langsung. Buku ini memakai
 gaya pembicaraan sehari-hari supaya mudah untuk mengkonsumsi ilmunya.
