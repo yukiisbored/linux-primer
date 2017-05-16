@@ -1,0 +1,16 @@
+language: ruby
+
+rvm:
+  - 2.2
+
+script:
+  - make all
+  - mkdir target
+  - mv -v index.html index.pdf index.45.xml index.5.xml target
+
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: $GITHUB_TOKEN
+  on:
+    branch: master
