@@ -3,6 +3,10 @@ Muhammad Kaisar Arkhan <ykno@protonmail.com>
 :experimental:
 :toc:
 
+include::tahan-dulu-bos.adoc[]
+
+<<
+
 include::bab-1-memulai-perjalanan.adoc[]
 
 <<<

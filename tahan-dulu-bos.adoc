@@ -1,0 +1,23 @@
+== Tahan dulu bos!
+
+Sebelum kamu mulai terjun ke dalam dunia Linux, Saya ingin memberi kamu beberapa hal yang sangat penting. Hal-hal
+berikut ini sangat penting dalam perjalanan kamu.
+
+=== Baca yang teliti!
+
+Membaca itu adalah kegiatan yang sangat penting. Memang membaca itu adalah kegiatan yang tidak semua orang suka, tetapi
+jika kamu malas membaca kamu akan rugi sendiri dan menganggu orang lain dengan tanya terus-terus di forum, chat, dan
+media sosial lain. Saya menulis buku sendiri dengan gaya bahasa komunikatif dan bahasa "gaul" supaya kamu tidak bosan
+dan mengira ini skripsi yang menjelaskan mengapa langit berwarna biru bukan merah.
+
+=== Google adalah temanmu.
+
+Semua orang pasti kebingungan atau tidak mengerti pada sesuatu. Bisa dari manajemen paket, definisi perangkat lunak,
+dan lain lain. Mayoritas orang langsung tanya kepada "ahli" dan bertanya terus-menerus padahal "ahli" ini hanya
+mencarinya di Google. Google adalah temanmu, pakailah Ia dengan baik. Jangan selalu mempunyai mental "serahkan kepada
+yang ahli". Sekarang tujuannya juga untuk membangun skill komputer kamu, jadi giatlah mencari di Internet sebelum
+bertanya. Saya jamin 99% masalah atau pertanyaan yang kamu punya itu tidak unik dan ada orang di Internet yang pernah
+bertanya yang sama dan telah mendapatkan jawaban dari orang lain.
+
+Dengan kedua hal di atas, saya bermohon untuk kamu mengamalinya walaupun cuman hal-hal yang sepele tetapi mereka itu
+mempunyai _role_ yang penting di kehidupan sehari-hari.
