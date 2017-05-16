@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?asciidoc-toc?>
+<?asciidoc-numbered?>
+<article xmlns="http://docbook.org/ns/docbook" xmlns:xl="http://www.w3.org/1999/xlink" version="5.0" xml:lang="en">
+<info>
+<title>Linux Primer</title>
+<subtitle>Belajar Linux Bagi Pemula</subtitle>
+<date>2017-05-16</date>
+<author>
+<personname>
+<firstname>Muhammad</firstname>
+<othername>Kaisar</othername>
+<surname>Arkhan</surname>
+</personname>
+<email>ykno@protonmail.com</email>
+</author>
+<authorinitials>MKA</authorinitials>
+</info>
+<section xml:id="_tahan_dulu_bos">
+<title>Tahan dulu bos!</title>
+<simpara>Sebelum kamu mulai terjun ke dalam dunia Linux, Saya ingin memberi kamu beberapa hal yang sangat penting. Hal-hal
+berikut ini sangat penting dalam perjalanan kamu.</simpara>
+<section xml:id="_baca_yang_teliti">
+<title>Baca yang teliti!</title>
+<simpara>Membaca itu adalah kegiatan yang sangat penting. Memang membaca itu adalah kegiatan yang tidak semua orang suka, tetapi
+jika kamu malas membaca kamu akan rugi sendiri dan menganggu orang lain dengan tanya terus-terus di forum, chat, dan
+media sosial lain. Saya menulis buku sendiri dengan gaya bahasa komunikatif dan bahasa "gaul" supaya kamu tidak bosan
+dan mengira ini skripsi yang menjelaskan mengapa langit berwarna biru bukan merah.</simpara>
+</section>
+<section xml:id="_google_adalah_temanmu">
+<title>Google adalah temanmu.</title>
+<simpara>Semua orang pasti kebingungan atau tidak mengerti pada sesuatu. Bisa dari manajemen paket, definisi perangkat lunak,
+dan lain lain. Mayoritas orang langsung tanya kepada "ahli" dan bertanya terus-menerus padahal "ahli" ini hanya
+mencarinya di Google. Google adalah temanmu, pakailah Ia dengan baik. Jangan selalu mempunyai mental "serahkan kepada
+yang ahli". Sekarang tujuannya juga untuk membangun skill komputer kamu, jadi giatlah mencari di Internet sebelum
+bertanya. Saya jamin 99% masalah atau pertanyaan yang kamu punya itu tidak unik dan ada orang di Internet yang pernah
+bertanya yang sama dan telah mendapatkan jawaban dari orang lain.</simpara>
+<simpara>Dengan kedua hal di atas, saya bermohon untuk kamu mengamalinya walaupun cuman hal-hal yang sepele tetapi mereka itu
+mempunyai <emphasis>role</emphasis> yang penting di kehidupan sehari-hari.</simpara>
+<simpara>&lt;&lt;</simpara>
+</section>
+</section>
+<section xml:id="_memulai_perjalanan">
+<title>Memulai Perjalanan</title>
+<section xml:id="_mengapa_linux">
+<title>Mengapa Linux?</title>
+<simpara>Mengapa sih perlu banget belajar Linux, emang pentingnya Linux dalam dunia kita itu apa dan apa yang membuat Linux
+itu sendiri sebuah sistem yang sangat populer dan sangat diinginkan di dunia komputer. Linux itu sendiri dari
+penglihatan orang awam seperti sesuatu yang "susah" dan "abstrak" (padahal dia sendiri belum memakainya).</simpara>
+<simpara>Sebenarnya Linux itu sendiri sama seperti operasi sistem lainnya seperti Windows, macOS, dkk. Bahkan saya bisa
+menjamin kamu pasti mempunyai sistem Linux tetapi kamu aja belum sadar. Coba cek aja, pasti diantara Smartphone,
+TV, Mobil, Kulkas, Pemanggang roti, dan lain lain ada yang jalan Linux. Mengapa? karena Linux itu Bebas dan Terbuka.
+Mungkin kamu pernah mengdengarkan sesuatu yang bernama "Open Source", "Free Software", atau gabungan dari kedua
+tersebut yaitu "Free and Open Source Software". "Free" disini bukan berarti tidak mempunyai harga tetapi kebebasan.
+Perangkat lunak yang terbuka dan bebas pasti mempunyai kebebasan pokok yaitu kebebasan untuk menjalakan, menyalin,
+mendistribusikan, mempelajari, mengubah, dan memperbagus perangkat lunak tersebut.</simpara>
+<simpara>Tidak seperti perangkat lunak yang berhak-milik (<emphasis>proprietary</emphasis>) dimana pemakainya tidak punya kebebasan seperti
+diatas. Mungkin kamu bisa bilang bahwa kamu bisa aja mengubah, tetapi apakah yang kamu lakukan halal?. Kamu bisa
+membuat duplikat dan kasih ke teman kamu, tetapi apakah yang kamu lakukan halal?. Walaupun kamu bisa tetapi bukan
+berarti itu adalah sesuatu yang benar.</simpara>
+<simpara>Dengan memakai perangkat lunak yang terbuka dan bebas, kamu diberi kebebasan. Ini juga berupa alasan dan daya tarik
+perusahaan dengan Linux. Linux adalah proyek perangkat lunak bebas yang sangat terbesar. Siapa yang bekerja?
+Perusahaan ternama seperti Intel, AMD, NVIDIA, bahkan Microsoft, dan berbagai macam perusahaan lainnya yang sangat
+membutuhkan juga bekerja dan membantu dalam pengembangan Linux. Bukan cuman perusahaan, orang seperti kamu juga
+bisa. Siapapun yang mempunyai kemampuan untuk mengembangkan Linux bisa dan diperbolehkan untuk ikut mengembanginya atau
+mengubahnya.</simpara>
+</section>
+<section xml:id="_oke_bagaimana_saya_bisa_mulai_dengan_linux_ini">
+<title>Oke, bagaimana saya bisa mulai dengan "Linux" ini?</title>
+<simpara>Linux itu sendiri hanya sebuah <emphasis>kernel</emphasis> yaitu program yang menguruskan komunikasi dengan perangkat keras (seperti
+<emphasis>Monitor</emphasis>, <emphasis>Speaker</emphasis>, <emphasis>Keyboard</emphasis>, <emphasis>Mouse</emphasis>, dll) untuk menjalakan sebuah program/perangkat lunak. Kamu sendiri tidak
+memakai Linux secara langsung, yang kamu pakai adalah program-program seperti desktop, penjelajah web, klien surel,
+dll. Karena itu, Linux mempunyai sebuah paket siap dipakai yang sering disebut distribusi atau "Distro".</simpara>
+<simpara>Distro ini sendiri adalah sistem Linux yang siap dipakai dan hanya perlu di-<emphasis>install</emphasis>, seperti mie instan tinggal
+diseduh dan siap saji. Tetapi karena keunikannya Linux, kalian bisa mencobanya tanpa perlu di-<emphasis>install</emphasis> fitur ini
+biasanya disebut "Live session".</simpara>
+<simpara>Buku ini akan fokus ke distro Linux Debian atau yang berbasis Debian. Debian adalah salah satu distro yang sangat
+populer karena merupakan salah satu distro pertama yang membawa fitur yang membuat Linux itu keren yaitu manajemen
+paket. Kita akan bahas manajemen paket nanti. Karena terbukanya Linux, distro seperti Debian juga sering
+diotak-utik. Salah satu distro berbasis Debian yang populer adalah Ubuntu.</simpara>
+<section xml:id="_rekomendasinya_chef">
+<title>Rekomendasinya Chef</title>
+<simpara>Oke, berikut ini adalah distro yang berbasis Debian yang saya rekomendasi untuk pemula:</simpara>
+<orderedlist numeration="arabic">
+<listitem>
+<simpara>Linux Mint</simpara>
+<simpara>Linux Mint adalah distro yang berbasis Ubuntu. Saya rekomendasikan Linux Mint karena <emphasis>desktop</emphasis> yang mirip Windows,
+jadi untuk yang sudah sering pakai Windows mungkin tidak terlalu keliru dengan <emphasis>desktop</emphasis>-nya. Linux Mint sendiri
+memang dibuat untuk pemula, tetapi jangan salah orang yang sudah mahir juga suka pakai Linux Mint.</simpara>
+<figure>
+<title>Foto <emphasis>Desktop</emphasis> Linux Mint</title>
+<mediaobject>
+<imageobject>
+<imagedata fileref="https://upload.wikimedia.org/wikipedia/commons/d/d4/Linux_Min_14_(Nadia).png"/>
+</imageobject>
+<textobject><phrase>Linux Min 14 (Nadia)</phrase></textobject>
+</mediaobject>
+</figure>
+<simpara>Website: <link xl:href="https://linuxmint.com">https://linuxmint.com</link></simpara>
+</listitem>
+<listitem>
+<simpara>Ubuntu</simpara>
+<simpara>Mungkin kamu sering mendengarkan distro yang satu ini atau mungkin pernah membeli laptop yang sudah ter-<emphasis>install</emphasis>
+dengan dia tetapi kamu hapus dan <emphasis>install</emphasis> Windows. Iya, Ubuntu memang distro yang sangat populer, mungkin kakek/
+nenek-mu pernah dengar namanya. Ubuntu ini saya rekomendasikan untuk pemula karena komunitasnya yang besar (Tenang,
+Mint tidak kalah ;)). Ubuntu ini juga pas bagi kamu yang sudah bosan dengan <emphasis>desktop</emphasis>-nya Windows atau mungkin sudah
+mual dengan <emphasis>desktop</emphasis> barunya Windows.</simpara>
+<figure>
+<title>Foto <emphasis>Desktop</emphasis> Ubuntu</title>
+<mediaobject>
+<imageobject>
+<imagedata fileref="https://upload.wikimedia.org/wikipedia/commons/9/94/Desktop_Ubuntu_13_10.png"/>
+</imageobject>
+<textobject><phrase>Desktop Ubuntu 13 10</phrase></textobject>
+</mediaobject>
+</figure>
+<simpara>Website: <link xl:href="https://ubuntu.com">https://ubuntu.com</link></simpara>
+</listitem>
+<listitem>
+<simpara>Debian</simpara>
+<simpara>Tentu saja saya rekomendasikan yang aslinya. Debian saya rekomendasikan karena Debian. Ya bukan itu juga, karena
+Debian itu sendiri memberi kebebasan pilihan untuk mulai dengan <emphasis>desktop</emphasis> apa. Pilihannya (pada saat penulisan)
+adalah GNOME, KDE, XFCE, dan Cinnamon atau tanpa desktop (bagi kamu yang sudah siap banget dengan tantangan).</simpara>
+<figure>
+<title>Foto <emphasis>Desktop</emphasis> Debian dengan GNOME</title>
+<mediaobject>
+<imageobject>
+<imagedata fileref="https://upload.wikimedia.org/wikipedia/commons/5/59/Debian_7.3_(wheezy)_amd64_with_GNOME_3.4.2.png"/>
+</imageobject>
+<textobject><phrase>Debian 7.3 (wheezy) amd64 with GNOME 3.4.2</phrase></textobject>
+</mediaobject>
+</figure>
+<simpara>Website: <link xl:href="https://debian.org">https://debian.org</link></simpara>
+</listitem>
+</orderedlist>
+</section>
+<section xml:id="_siapkan">
+<title>Siapkan</title>
+<simpara>Pada saat kamu sudah pilih distro apa yang kamu inginkan. <emphasis>Download</emphasis> <emphasis>ISO</emphasis>-nya dari website yang telah dicantumkan.
+Pilihlah yang sesuai dengan komputer kamu, biasanya komputer kamu sudah bisa 64-bit/amd64/x86_64 kecuali jika
+komputer kamu sudah lama banget (mungkin sebelum tahun 2006 dimana processor 64-bit belum populer).</simpara>
+<simpara>Setelah kamu sudah selesai <emphasis>download</emphasis> <emphasis>ISO</emphasis>-nya, kamu siapkan media instalasinya. Pilihannya adalah di antara
+<emphasis>Flash disk</emphasis> atau <emphasis>DVD</emphasis>.</simpara>
+<section xml:id="_penyiapan_media_dvd">
+<title>Penyiapan Media DVD</title>
+<simpara>Jika kamu tidak punya <emphasis>flash disk</emphasis> yang tidak penting, beli saja DVD kosong di tempat jual ATK (Alat tulis kantor)
+terdekat dan <emphasis>Burn</emphasis> <emphasis>ISO</emphasis>-nya dengan alat <emphasis>burning</emphasis> <emphasis>ISO</emphasis> yang sudah tersedia di Windows 7+ (bagi pemakai Windows XP/
+Vista bisa cari di Internet untuk alat <emphasis>burning</emphasis> yang sesuai).</simpara>
+</section>
+<section xml:id="_penyiapan_media_flash_disk">
+<title>Penyiapan Media Flash Disk</title>
+<simpara>Jika kamu punya <emphasis>flash disk</emphasis> yang tidak penting (tidak penting disini bermaksud pada isinya), kamu bisa memakai
+alat yang bernama "Rufus" yaitu perangkat lunak terbuka untuk menyiapkan media <emphasis>ISO</emphasis> Linux/Windows ke <emphasis>flash disk</emphasis>.</simpara>
+<orderedlist numeration="arabic">
+<listitem>
+<simpara><emphasis>Download</emphasis> Rufus di <link xl:href="https://rufus.akeo.ie/">https://rufus.akeo.ie/</link></simpara>
+</listitem>
+<listitem>
+<simpara>Jalakan Rufus</simpara>
+</listitem>
+<listitem>
+<simpara>Tekan tombol yang gambar CD (yang disebelah <emphasis>drop-down</emphasis> yang bertulisan "ISO Image")</simpara>
+</listitem>
+<listitem>
+<simpara>Pilih <emphasis>ISO</emphasis> Linux yang sudah di-<emphasis>download</emphasis></simpara>
+</listitem>
+<listitem>
+<simpara>Pastikan <emphasis>Device</emphasis> yang dipilih adalah <emphasis>flash disk</emphasis> kamu</simpara>
+</listitem>
+<listitem>
+<simpara>Jika Komputer kamu pakai UEFI, pilih "GPT Partition Scheme for UEFI". Biasanya tidak atau tidak dipakai.</simpara>
+</listitem>
+<listitem>
+<simpara>Tekan "Start"</simpara>
+</listitem>
+</orderedlist>
+</section>
+</section>
+<section xml:id="_penyeduhan">
+<title>Penyeduhan</title>
+<simpara>Buku ini tidak mengajarkan cara <emphasis>install</emphasis> Linux (karena menurut saya, cara <emphasis>install</emphasis> Linux sudah mudah dengan
+<emphasis>installer</emphasis> yang sudah disediakan). Tetapi buku ini akan memberitahu beberapa hal dalam cara menjalankan media
+instalasi.</simpara>
+<simpara>Colokan/masukan media instalasi ke Komputer kamu dan coba <emphasis>restart</emphasis>. Jika Linux tidak jalan, berarti
+komputer kamu memprioritaskan <emphasis>hard disk</emphasis> daripada media instalasi. Silahkan ke menu pemilihan <emphasis>boot device</emphasis>,
+biasanya pada saat boot ada tulisan seperti "Boot Interrupt", "Boot Media Select", "Boot Menu", dll dan sebuah
+tombol disebelahnya. Jika ada, <emphasis>restart</emphasis> dan tekanlah tombol itu berkali-kali setelah Windows sudah keluar atau
+BIOS sudah muncul dan pilihlah media instalasi kamu.</simpara>
+<simpara>Jika tidak bisa <emphasis>boot</emphasis> ke media instalasi, berarti komputer kamu memakai UEFI karena itu jika pakai metode Flash
+Disk silahkan lakukan lagi. Jika tidak ada tulisan, coba tekan <keycap>ESC</keycap> berkali-kali pada saat nyala, jika masih
+tidak bisa silahkan konsultasi ke Internet.</simpara>
+<simpara>Seperti yang saya bilang sebelumnya, buku ini tidak mengajarkan atau memberitahu cara <emphasis>install</emphasis> Linux, silahkan
+coba sendiri. Saya yakin bahwa instalasi Linux itu semudah Windows, jika masih keliru silahkan buka Internet
+dan liat video tutorial atau <emphasis>walkthrough</emphasis>. Jika kamu mau melakukan <emphasis>dual-boot</emphasis>, saya rekomendasikan memakai Linux
+Mint atau Ubuntu karena ada fitur yang memudahkan dalam melakukan hal tersebut.</simpara>
+</section>
+<section xml:id="_penyajian">
+<title>Penyajian</title>
+<simpara>Jika kamu sudah sukses install Linux, selamat kamu telah melakukan satu hal yang temanmu mungkin belum pernah.
+Silahkan coba pakai Linux dan coba <emphasis>install</emphasis> program-program yang dibutuhkan untuk bekerja, bermain, dan
+semacamnya.</simpara>
+<simpara><?asciidoc-pagebreak?></simpara>
+</section>
+</section>
+</section>
+<section xml:id="_daftar_pustaka">
+<title>Daftar Pustaka</title>
+<itemizedlist>
+<listitem>
+<simpara><link xl:href="https://www.gnu.org/philosophy/free-sw.en.html">https://www.gnu.org/philosophy/free-sw.en.html</link></simpara>
+</listitem>
+</itemizedlist>
+<simpara><?asciidoc-pagebreak?></simpara>
+</section>
+<section xml:id="_sumber_foto">
+<title>Sumber Foto</title>
+<orderedlist numeration="arabic">
+<listitem>
+<simpara><link xl:href="https://upload.wikimedia.org/wikipedia/commons/d/d4/Linux_Min_14_(Nadia).png">https://upload.wikimedia.org/wikipedia/commons/d/d4/Linux_Min_14_(Nadia).png</link></simpara>
+</listitem>
+<listitem>
+<simpara><link xl:href="https://upload.wikimedia.org/wikipedia/commons/9/94/Desktop_Ubuntu_13_10.png">https://upload.wikimedia.org/wikipedia/commons/9/94/Desktop_Ubuntu_13_10.png</link></simpara>
+</listitem>
+<listitem>
+<simpara><link xl:href="https://upload.wikimedia.org/wikipedia/commons/5/59/Debian_7.3_(wheezy)_amd64_with_GNOME_3.4.2.png">https://upload.wikimedia.org/wikipedia/commons/5/59/Debian_7.3_(wheezy)_amd64_with_GNOME_3.4.2.png</link></simpara>
+</listitem>
+</orderedlist>
+</section>
+</article>
