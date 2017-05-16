@@ -1,5 +1,5 @@
-ASCIIDOCTOR=asciidoctor
-ASCIIDOCTOR_PDF=asciidoctor-pdf
+ASCIIDOCTOR=bundle exec asciidoctor
+ASCIIDOCTOR_PDF=bundle exec asciidoctor-pdf
 ASCIIDOCTOR_OPTS=-a allow-uri-read
 FILES=index.adoc
 TARGETS=html docbook5 docbook45 pdf
